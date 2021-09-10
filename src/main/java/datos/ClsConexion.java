@@ -21,7 +21,7 @@ public class ClsConexion {
          
      }
          
-     //crear conexion
+     //cerrar conexion
      public static void close(ResultSet rs){
          try {
              rs.close();
